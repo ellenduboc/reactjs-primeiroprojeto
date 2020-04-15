@@ -6,10 +6,10 @@ import Repository from './pages/Repository';
 function Routes() {
     return (
         <BrowserRouter>
-            <switch>
+            <Switch>
                 <Route path="/" exact component={Main} />
                 <Route path="/Repository" component={Repository} />
-            </switch>
+            </Switch>
         </BrowserRouter>
     );
 }
